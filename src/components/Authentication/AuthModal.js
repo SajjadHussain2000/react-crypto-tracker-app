@@ -121,7 +121,7 @@ export default function AuthModal() {
                 <Tab label="Login" />
                 <Tab label="Sign Up" />
               </Tabs>
-            </AppBar>
+            </AppBar> 
             {value === 0 && <Login handleClose={handleClose} />}
             {value === 1 && <Signup handleClose={handleClose} />}
             <Box className={classes.google}>
